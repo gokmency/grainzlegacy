@@ -4,9 +4,9 @@
   "description": "Grainz - Turkey's Leading Blockchain Community Management Agency",
   "main": "index.html",
   "scripts": {
-    "dev": "python3 -m http.server 8001",
-    "build": "echo 'Static site - no build required'",
-    "start": "python3 -m http.server 8001"
+    "dev": "cd public && python3 -m http.server 8001",
+    "build": "echo 'Static site ready for deployment'",
+    "start": "cd public && python3 -m http.server 8001"
   },
   "keywords": [
     "blockchain",
