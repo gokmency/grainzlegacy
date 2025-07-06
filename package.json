@@ -1,0 +1,27 @@
+{
+  "name": "grainz-website",
+  "version": "1.0.0",
+  "description": "Grainz - Turkey's Leading Blockchain Community Management Agency",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8001",
+    "build": "echo 'Static site - no build required'",
+    "start": "python3 -m http.server 8001"
+  },
+  "keywords": [
+    "blockchain",
+    "community-management", 
+    "social-media",
+    "turkey",
+    "web3",
+    "crypto",
+    "events"
+  ],
+  "author": "Grainz Team",
+  "license": "MIT",
+  "homepage": "https://grainz.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grainzio/grainzlegacy.git"
+  }
+} 
